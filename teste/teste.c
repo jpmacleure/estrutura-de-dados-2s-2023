@@ -4,12 +4,19 @@ double calcular_dobro(double n){
     return n*2;
 }
 
+int verificar_numero_primo(int n){
+    return 0;
+}
+
 int main(int argc, char* argv[]){
     int n = -11;
     int n2 = 0;
     float f1 = 1.5;
     double d1 = 1.55555555;
     char letra = 'J';
+
+    printf("\n%s\n", argv[1]);
+
 
     if(n2){
         printf("0 eh verdadeiro\n");
